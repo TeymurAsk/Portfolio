@@ -2,7 +2,10 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #FFDDA6;
 }
-
+::-webkit-scrollbar {
+    display: none;
+    width: 0.7em;
+}
 a, .btn-link {
     color: #006bb7;
 }
@@ -78,3 +81,10 @@ h1:focus {
     .socials path:hover {
         fill: #EE3E38;
     }
+.orange-text-hover {
+    color: #e50000;
+}
+.rotated-text {
+    display: inline-block;
+    transform: rotate(90deg);
+}
