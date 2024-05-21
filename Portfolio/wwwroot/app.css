@@ -88,3 +88,31 @@ h1:focus {
     display: inline-block;
     transform: rotate(90deg);
 }
+.resume-btn {
+    background-color: #FFDDA6;
+    color: black;
+    width: 155px;
+    height: 47px;
+    position: absolute;
+    right: 4%;
+    top: 11.5px;
+    border: solid;
+    border-width: 2px;
+    border-color: #FF423B;
+    font-family: 'Jaldi';
+    font-size: 1.75rem;
+}   
+    .resume-btn:hover {
+        background-color: #FF423B;
+        color: white;
+        width: 155px;
+        height: 47px;
+        position: absolute;
+        right: 4%;
+        top: 11.5px;
+        border: solid;
+        border-width: 2px;
+        border-color: #FF423B;
+        font-family: 'Jaldi';
+        font-size: 1.75rem;
+    }
