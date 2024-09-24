@@ -1,0 +1,121 @@
+﻿.featured {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #1E1B4B;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 0.8rem;
+}
+.featured__horizontal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: #1E1B4B;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 4rem
+}
+.featured__title {
+    color: #f1f5f9;
+    font-size: var(--size-4xl);
+}
+.featured__work {
+    background-color: #a78bfa;
+    border-radius: 1rem;
+    overflow:hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0, 0.4);
+}
+.featured__work-image-block {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius:1rem;
+}
+.featured__work-text-block{
+    padding:1rem;
+}
+.featured__work-title {
+    color: #0d0d0d;
+    font-size: var(--size-3xl);
+}
+.featured__work-subtitle {
+    color: #0d0d0d;
+    font-size: var(--size-lg);
+}
+/* xs */
+@media (min-width:475px) {
+    .featured__work {
+        max-width: 29.625rem;
+        margin: 0 auto;
+    }
+}
+
+/* sm */
+@media (min-width:640px) {
+    .featured__work {
+        max-width: 31.625rem;
+    }
+    .featured__title {
+        font-size: var(--size-5xl);
+    }
+}
+
+/* md */
+@media (min-width:768px) {
+    .featured__work-title {
+        font-size: var(--size-4xl);
+    }
+
+    .featured__work-subtitle {
+        font-size: var(--size-xl);
+    }
+}
+
+/* lg */
+@media (min-width:1024px) {
+    .featured__work {
+        max-width: 35.625rem;
+    }
+}
+
+/* XL */
+@media (min-width:1280px) {
+    .featured__work {
+        max-width: 31.625rem;
+    }
+    .featured__horizontal {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        text-align: center;
+        background-color: #1E1B4B;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding-top: 0.8rem;
+        padding-bottom:4rem
+    }
+    .featured__work-title {
+        font-size: var(--size-3xl);
+    }
+
+    .featured__work-subtitle {
+        font-size: var(--size-lg);
+    }
+    .featured__work-text-block {
+        padding: 0.5rem;
+    }
+}
+
+/* 2XL */
+@media (min-width:1536px) {
+    .featured__title {
+        font-size: var(--size-6xl);
+    }
+}
